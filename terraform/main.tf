@@ -9,7 +9,7 @@ terraform {
     region = "us-west-2"
     key    = "terraform.tfstate"
     bucket = "tfstate-gitlab"
-    dynamodb_table = "Terraform-table-lock"
+    #dynamodb_table = "Terraform-table-lock"
   }
 }
 
