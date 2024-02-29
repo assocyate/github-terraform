@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     region = "us-west-2"
     key    = "terraform.tfstate"
-    bucket = "tfstate-gitlab"
+    #bucket = "tfstate-gitlab"
     #dynamodb_table = "Terraform-table-lock"
   }
 }
